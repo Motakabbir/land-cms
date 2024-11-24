@@ -1,0 +1,1143 @@
+BODY {
+	BACKGROUND: #f4dd65; MARGIN: 2px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #0000ff
+}
+abbr {
+	CURSOR: help
+}
+DIV {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+H2 {
+	FONT-SIZE: 20px; COLOR: #000000
+}
+H3 {
+	FONT-SIZE: 18px
+}
+FIELDSET {
+	WIDTH: 96%
+}
+LABEL {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+P {
+	FONT-SIZE: 12px
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+SELECT {
+	FONT-SIZE: 12px
+}
+TEXTAREA {
+	FONT-SIZE: 12px; OVERFLOW: auto
+}
+TABLE {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; border-spacing: 0
+}
+TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; BACKGROUND: #f4dd65; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px
+}
+TD {
+	FONT-SIZE: 11px
+}
+UL {
+	FONT-SIZE: 12px
+}
+UL A {
+	FONT-SIZE: 12px
+}
+.main {
+	CLEAR: both; BORDER-RIGHT: #000000 1px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 1px solid
+}
+.main TH {
+	BORDER-TOP: #000000 1px solid; BACKGROUND: url(includes/gradient.php?base=F4DD65&height=15) #f4dd65 repeat-x; VERTICAL-ALIGN: top; BORDER-LEFT: #000000 1px solid; WIDTH: 14%
+}
+.main TH.weekend {
+	BACKGROUND: url(includes/gradient.php?base=F4DD65&height=15) #f4dd65 repeat-x
+}
+.main TD {
+	BORDER-TOP: #000000 1px solid; BACKGROUND: url(includes/gradient.php?base=F4DD65&height=100) #f4dd65 repeat-x; VERTICAL-ALIGN: top; BORDER-LEFT: #000000 1px solid; WIDTH: 14%
+}
+.main TD.weekend {
+	BACKGROUND: url(includes/gradient.php?base=FF6633&height=100) #ff6633 repeat-x
+}
+.main TD.hasevents {
+	BACKGROUND: url(includes/gradient.php?base=CC9900&height=100) #cc9900 repeat-x
+}
+.main TD.othermonth {
+	BACKGROUND: url(includes/gradient.php?base=CC9900&height=100) #cc9900 repeat-x
+}
+.main TD.today {
+	BACKGROUND: url(includes/gradient.php?base=E7D03A&height=100) #e7d03a repeat-x
+}
+.underline {
+	TEXT-DECORATION: underline
+}
+.cursoradd A {
+	CURSOR: pointer
+}
+#tabs {
+	WIDTH: 96%; POSITION: relative
+}
+#tabscontent {
+	WIDTH: 96%; POSITION: relative
+}
+#tabscontent {
+	BORDER-RIGHT: #c0c0c0 2px groove; PADDING-RIGHT: 0.5em; BORDER-TOP: #c0c0c0 2px groove; PADDING-LEFT: 0.5em; Z-INDEX: 50; BACKGROUND: #f8f8ff; PADDING-BOTTOM: 0.5em; MARGIN: -1px 2px; BORDER-LEFT: #c0c0c0 2px groove; PADDING-TOP: 0.5em; BORDER-BOTTOM: #c0c0c0 2px groove
+}
+.tabfor {
+	BORDER-RIGHT: #c0c0c0 2px ridge; PADDING-RIGHT: 0.2em; BORDER-TOP: #c0c0c0 2px ridge; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.1em; MARGIN: 0px 0px 0px 0.1em; BORDER-LEFT: #c0c0c0 2px ridge; PADDING-TOP: 0.2em; BORDER-BOTTOM: #f8f8ff 2px solid; POSITION: relative; moz-border-radius: .75em .75em 0 0
+}
+.tabbak {
+	BORDER-RIGHT: #c0c0c0 2px ridge; PADDING-RIGHT: 0.2em; BORDER-TOP: #c0c0c0 2px ridge; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.1em; MARGIN: 0px 0px 0px 0.1em; BORDER-LEFT: #c0c0c0 2px ridge; PADDING-TOP: 0.2em; BORDER-BOTTOM: #f8f8ff 2px solid; POSITION: relative; moz-border-radius: .75em .75em 0 0
+}
+.tabfor A {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.tabbak A {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.tabfor A {
+	COLOR: #000000
+}
+.tabbak A {
+	COLOR: #909090
+}
+.tabfor {
+	Z-INDEX: 51; BACKGROUND: #f8f8ff
+}
+.tabbak {
+	Z-INDEX: 49; BACKGROUND: #e0e0e0
+}
+#editnonusers {
+	BACKGROUND: #f8f8ff
+}
+#editremotes {
+	BACKGROUND: #f8f8ff
+}
+#editremoteshandler {
+	BACKGROUND: #f8f8ff
+}
+#edituser {
+	BACKGROUND: #f8f8ff
+}
+#groupedit {
+	BACKGROUND: #f8f8ff
+}
+#viewsedit {
+	BACKGROUND: #f8f8ff
+}
+#cat {
+	DISPLAY: none
+}
+#day DL.desc {
+	DISPLAY: none
+}
+#grpiframe {
+	DISPLAY: none
+}
+#nonusersiframe {
+	DISPLAY: none
+}
+#remotesiframe {
+	DISPLAY: none
+}
+#tabscontent_boss {
+	DISPLAY: none
+}
+#tabscontent_colors {
+	DISPLAY: none
+}
+#tabscontent_email {
+	DISPLAY: none
+}
+#tabscontent_groups {
+	DISPLAY: none
+}
+#tabscontent_header {
+	DISPLAY: none
+}
+#tabscontent_nonuser {
+	DISPLAY: none
+}
+#tabscontent_nonusers {
+	DISPLAY: none
+}
+#tabscontent_other {
+	DISPLAY: none
+}
+#tabscontent_participants {
+	DISPLAY: none
+}
+#tabscontent_pete {
+	DISPLAY: none
+}
+#tabscontent_public {
+	DISPLAY: none
+}
+#tabscontent_reminder {
+	DISPLAY: none
+}
+#tabscontent_remotes {
+	DISPLAY: none
+}
+#tabscontent_sched {
+	DISPLAY: none
+}
+#tabscontent_subscribe {
+	DISPLAY: none
+}
+#tabscontent_themes {
+	DISPLAY: none
+}
+#tabscontent_uac {
+	DISPLAY: none
+}
+#useriframe {
+	DISPLAY: none
+}
+#viewiframe {
+	DISPLAY: none
+}
+#tabscontent_colors P SPAN {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; MARGIN: 0px 1px; BORDER-TOP-STYLE: groove; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: groove; BORDER-LEFT-STYLE: groove; BORDER-BOTTOM-STYLE: groove
+}
+.sample {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; MARGIN: 0px 1px; BORDER-TOP-STYLE: groove; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: groove; BORDER-LEFT-STYLE: groove; BORDER-BOTTOM-STYLE: groove
+}
+.weeknumber {
+	FONT-SIZE: 10px; COLOR: #800080; TEXT-DECORATION: none
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+IMG.color {
+	WIDTH: 15px; HEIGHT: 15px
+}
+#cat {
+	FONT-SIZE: 18px
+}
+#dateselector {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#trailer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#dateselector FORM {
+	MARGIN-TOP: 5px; FLOAT: left; MARGIN-BOTTOM: 25px; WIDTH: 33%; PADDING-TOP: 5px
+}
+#dateselector LABEL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#trailer LABEL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#monthform {
+	CLEAR: left; MARGIN-BOTTOM: 0px
+}
+#weekform {
+	MARGIN-BOTTOM: 0px; TEXT-ALIGN: center
+}
+#weekmenu {
+	FONT-SIZE: 9px; MARGIN-BOTTOM: 0px; TEXT-ALIGN: right
+}
+#monthmenu {
+	FONT-SIZE: 9px; MARGIN-BOTTOM: 0px; TEXT-ALIGN: right
+}
+#yearmenu {
+	FONT-SIZE: 9px; MARGIN-BOTTOM: 0px; TEXT-ALIGN: right
+}
+#yearform {
+	CLEAR: right; MARGIN-BOTTOM: 0px; TEXT-ALIGN: right
+}
+#menu {
+	CLEAR: both
+}
+#menu {
+	FONT-SIZE: 14px
+}
+#menu A {
+	FONT-SIZE: 14px
+}
+.prefix {
+	FONT-SIZE: 14px
+}
+.printer {
+	FONT-SIZE: 14px
+}
+.prefix {
+	FONT-WEIGHT: bold
+}
+A#programname {
+	MARGIN-TOP: 10px; FONT-SIZE: 10px
+}
+.printer {
+	CLEAR: both; DISPLAY: block; WIDTH: 15ex; COLOR: #000000; TEXT-DECORATION: none
+}
+.new {
+	FLOAT: right
+}
+.unapprovedentry {
+	PADDING-RIGHT: 3px; FONT-SIZE: 12px; COLOR: #800000; TEXT-DECORATION: none
+}
+.nounapproved {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+#listunapproved .odd {
+	BACKGROUND: #e7d03a
+}
+.entry {
+	PADDING-RIGHT: 3px; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.layerentry {
+	PADDING-RIGHT: 3px; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.layerentry {
+	COLOR: #006060
+}
+.entry {
+	COLOR: #000000
+}
+.entry IMG {
+	MARGIN-LEFT: 2px; MARGIN-RIGHT: 2px
+}
+.layerentry IMG {
+	MARGIN-LEFT: 2px; MARGIN-RIGHT: 2px
+}
+.unapprovedentry IMG {
+	MARGIN-LEFT: 2px; MARGIN-RIGHT: 2px
+}
+.dayofmonth {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #000000 0px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; BORDER-LEFT: #000000 0px solid; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #000000 1px solid; TEXT-DECORATION: none
+}
+.dayofmonth:hover {
+	BORDER-RIGHT: #0000ff 1px solid; COLOR: #0000ff; BORDER-BOTTOM: #0000ff 1px solid
+}
+.next IMG {
+	FLOAT: right
+}
+#activitylog .next {
+	FLOAT: right
+}
+.prev IMG {
+	FLOAT: left
+}
+#activitylog .prev {
+	FLOAT: left
+}
+.next IMG {
+	MARGIN-TOP: 7px; MARGIN-RIGHT: 3px
+}
+.prev IMG {
+	MARGIN-TOP: 7px; MARGIN-RIGHT: 3px
+}
+#activitylog .next {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#activitylog .prev {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#day .next IMG {
+	MARGIN-TOP: 37px
+}
+#day .prev IMG {
+	MARGIN-TOP: 37px
+}
+#day .monthnav .next IMG {
+	MARGIN: 0px
+}
+#day .monthnav .prev IMG {
+	MARGIN: 0px
+}
+.dailymatrix {
+	FONT-SIZE: 12px; BACKGROUND: #f4dd65; CURSOR: pointer; TEXT-ALIGN: right; TEXT-DECORATION: none
+}
+.dailymatrix:hover {
+	BACKGROUND: #cfc
+}
+TD.matrixappts {
+	BACKGROUND: #f4dd65; VERTICAL-ALIGN: middle; WIDTH: 0%; CURSOR: pointer; TEXT-ALIGN: left
+}
+TD.matrixappts:hover {
+	BACKGROUND: #cfc
+}
+TD.matrix {
+	BACKGROUND: #000; HEIGHT: 1px
+}
+.matrix IMG {
+	WIDTH: 100%; HEIGHT: 1px
+}
+A.matrix IMG {
+	WIDTH: 100%; HEIGHT: 8px
+}
+.matrixd {
+	BORDER-RIGHT: #000000 1px solid; MARGIN-LEFT: auto; BORDER-LEFT: #000000 1px solid; MARGIN-RIGHT: auto
+}
+.matrixledge {
+	BORDER-LEFT: #000 1px solid
+}
+.matrixlegend {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #000 1px solid; MARGIN-TOP: 25px; PADDING-LEFT: 5px; BACKGROUND: #ffffff; PADDING-BOTTOM: 5px; MARGIN-LEFT: auto; BORDER-LEFT: #000 1px solid; MARGIN-RIGHT: auto; PADDING-TOP: 5px; BORDER-BOTTOM: #000 1px solid; TEXT-ALIGN: center
+}
+.matrixlegend IMG {
+	WIDTH: 10px; HEIGHT: 10px
+}
+.nav {
+	FONT-SIZE: 14px; COLOR: #000000; TEXT-DECORATION: none
+}
+.popup {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 12px; Z-INDEX: 20; BACKGROUND: url(includes/gradient.php?base=F4DD65&height=200) #f4dd65 repeat-x; LEFT: 0px; VISIBILITY: hidden; PADDING-BOTTOM: 3px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; PADDING-TOP: 3px; BORDER-BOTTOM: #000000 1px solid; POSITION: absolute; TOP: 0px; TEXT-DECORATION: none; moz-border-radius: 6px
+}
+.popup DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.popup DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.popup DT {
+	FONT-WEIGHT: bold
+}
+.popup DD {
+	MARGIN-LEFT: 20px
+}
+.tooltip {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; CURSOR: help; TEXT-DECORATION: none
+}
+.tooltipselect {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; CURSOR: help; TEXT-DECORATION: none
+}
+.tooltip {
+	WIDTH: 120px
+}
+.tooltipselect {
+	VERTICAL-ALIGN: top
+}
+.user {
+	FONT-SIZE: 18px; COLOR: #000000; TEXT-ALIGN: center
+}
+.categories {
+	FONT-SIZE: 18px; COLOR: #000000; TEXT-ALIGN: center
+}
+.asstmode {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-ALIGN: center
+}
+.help {
+	FONT-WEIGHT: bold; VERTICAL-ALIGN: top
+}
+.helpbody {
+	FONT-WEIGHT: normal; MARGIN-BOTTOM: 1em; VERTICAL-ALIGN: top
+}
+.helpbody DIV {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; BORDER-LEFT: #000 1px solid; BORDER-BOTTOM: #000 1px solid
+}
+.helpbody LABEL {
+	FONT-SIZE: 1.1em; VERTICAL-ALIGN: top
+}
+.helpbody P {
+	MARGIN: 1em
+}
+.helplist {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 1.2em; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; TEXT-ALIGN: center
+}
+.helplist A {
+	FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.helplist A.current {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#helpbug FORM {
+	MARGIN-BOTTOM: 1em
+}
+#helpbug LABEL {
+	CLEAR: left; FLOAT: left; WIDTH: 32%
+}
+#helpbug P {
+	MARGIN: 0px 1em
+}
+IMG.help {
+	CURSOR: help
+}
+.sample {
+	WIDTH: 16px; TEXT-ALIGN: left
+}
+.standard {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 12px; BACKGROUND: #f4dd65; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.standard TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #000000 1px solid
+}
+TR.highlight TD {
+	BACKGROUND-COLOR: #ffffb0! important
+}
+.minical {
+	FONT-SIZE: 10px; MARGIN: 0px 0px 5px; BORDER-COLLAPSE: collapse
+}
+.minical CAPTION A {
+	FONT-WEIGHT: bold; COLOR: #b04040
+}
+.minical CAPTION A:hover {
+	COLOR: #0000ff
+}
+.minical TH {
+	BORDER-RIGHT: #f4dd65 0px solid; PADDING-RIGHT: 2px; BORDER-TOP: #f4dd65 0px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; BORDER-LEFT: #f4dd65 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #f4dd65 0px solid
+}
+.minical TH {
+	BACKGROUND: #f4dd65; COLOR: #000000; TEXT-ALIGN: center
+}
+.minical TD.empty {
+	BACKGROUND: #f4dd65; COLOR: #000000; TEXT-ALIGN: center
+}
+.minical TH.empty {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.minical TD {
+	BORDER-RIGHT: #f4dd65 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #f4dd65 1px solid; PADDING-LEFT: 2px; BACKGROUND: #f4dd65; PADDING-BOTTOM: 0px; BORDER-LEFT: #f4dd65 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #f4dd65 1px solid
+}
+.minical TD A {
+	PADDING-RIGHT: 3px; DISPLAY: block; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+.minical TD.weekend {
+	BACKGROUND: #ff6633
+}
+#editentry TH.weekend {
+	BACKGROUND: #ff6633
+}
+.minical TD#today {
+	BACKGROUND: #e7d03a
+}
+.minical TD.hasevents {
+	FONT-WEIGHT: bold
+}
+.minitask {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; MARGIN-LEFT: 1px; BORDER-LEFT: #000 1px solid; WIDTH: 98%; BORDER-BOTTOM: #000 1px solid
+}
+.minitask TR.header TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND: #f4dd65; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #000 2px solid; TEXT-ALIGN: center
+}
+.minitask TR.header TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND: #f4dd65; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #000 2px solid; TEXT-ALIGN: center
+}
+.minitask TR.header TD {
+	MARGIN: 0px; BORDER-BOTTOM: 0px; TEXT-ALIGN: right
+}
+.sorter {
+	MARGIN: 0px; CURSOR: pointer; BORDER-BOTTOM: 0px; TEXT-ALIGN: left! important
+}
+.sorterbottom {
+	BORDER-BOTTOM: #000 1px solid
+}
+.minitask TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #000 1px solid; TEXT-ALIGN: center
+}
+.minitask TD.filler {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+.task {
+	COLOR: #000000
+}
+#admin TABLE {
+	VERTICAL-ALIGN: top
+}
+#pref TABLE {
+	VERTICAL-ALIGN: top
+}
+#admin INPUT {
+	MARGIN: 0px 3px
+}
+#admin SELECT {
+	MARGIN: 0px 3px
+}
+#pref INPUT {
+	MARGIN: 0px 3px
+}
+#pref SELECT {
+	MARGIN: 0px 3px
+}
+#admin .main TD {
+	HEIGHT: 30px
+}
+#pref .main TD {
+	HEIGHT: 30px
+}
+#admin .main TD {
+	FONT-SIZE: 12px
+}
+#admin .main TH {
+	FONT-SIZE: 12px
+}
+#pref .main TD {
+	FONT-SIZE: 12px
+}
+#pref .main TH {
+	FONT-SIZE: 12px
+}
+#admin .empty {
+	BORDER-TOP: transparent; BORDER-LEFT: transparent
+}
+#pref .empty {
+	BORDER-TOP: transparent; BORDER-LEFT: transparent
+}
+#admin .main TD.weekcell {
+	BACKGROUND: url(includes/gradient.php?base=F4DD65&height=50) #f4dd65 repeat-x; MARGIN: 0px; VERTICAL-ALIGN: middle; COLOR: #000000; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#pref .main TD.weekcell {
+	BACKGROUND: url(includes/gradient.php?base=F4DD65&height=50) #f4dd65 repeat-x; MARGIN: 0px; VERTICAL-ALIGN: middle; COLOR: #000000; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#admin .main TH.weekcell {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#pref .main TH.weekcell {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#admin .main TD.empty {
+	WIDTH: 1%
+}
+#admin .main TD.weekcell {
+	WIDTH: 1%
+}
+#admin .main TH.empty {
+	WIDTH: 1%
+}
+#admin .main TH.weekcell {
+	WIDTH: 1%
+}
+#pref .main TD.empty {
+	WIDTH: 1%
+}
+#pref .main TD.weekcell {
+	WIDTH: 1%
+}
+#pref .main TH.empty {
+	WIDTH: 1%
+}
+#pref .main TH.weekcell {
+	WIDTH: 1%
+}
+#admin #tabscontent P {
+	CLEAR: both; PADDING-RIGHT: 0.25em; PADDING-LEFT: 0.25em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#pref #tabscontent P {
+	CLEAR: both; PADDING-RIGHT: 0.25em; PADDING-LEFT: 0.25em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#admin #tabscontent P LABEL {
+	CLEAR: both; FLOAT: left; MARGIN: 0px; WIDTH: 25%
+}
+#pref #tabscontent P LABEL {
+	CLEAR: both; FLOAT: left; MARGIN: 0px; WIDTH: 25%
+}
+#admin #tabscontent_colors P {
+	CLEAR: none
+}
+#pref #tabscontent_colors P {
+	CLEAR: none
+}
+#admin #tabscontent_colors P LABEL {
+	CLEAR: none
+}
+#pref #tabscontent_colors P LABEL {
+	CLEAR: none
+}
+#admin #saver {
+	CLEAR: both; MARGIN-TOP: 1em
+}
+#example_month {
+	BACKGROUND: #f4dd65; FLOAT: right; MARGIN: 3em 1em 0px; WIDTH: 45%
+}
+#example_month P {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-ALIGN: center
+}
+#pref .tooltip {
+	VERTICAL-ALIGN: top; WIDTH: 175px
+}
+#minicalendar TABLE {
+	WIDTH: 160px
+}
+#minicalendar TD {
+	FONT-SIZE: 11px
+}
+#minicalendar TH {
+	FONT-SIZE: 11px
+}
+.embactlog {
+	BORDER-RIGHT: #000000 1px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 1px solid; border-spacing: 0
+}
+.embactlog TR {
+	BACKGROUND: #fff
+}
+.embactlog .odd {
+	BACKGROUND: #eee
+}
+.embactlog TH {
+	PADDING-RIGHT: 3px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 1px; BORDER-LEFT: #000000 1px solid; WIDTH: 14%; PADDING-TOP: 1px; BORDER-BOTTOM: #000000 1px solid
+}
+.embactlog TH.action {
+	WIDTH: 7%
+}
+.embactlog TH.cal {
+	WIDTH: 7%
+}
+.embactlog TH.usr {
+	WIDTH: 7%
+}
+.embactlog TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 1px; BORDER-LEFT: #000000 1px solid; PADDING-TOP: 1px
+}
+#day DIV.minicalcontainer {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #000 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: top; BORDER-LEFT: #000 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #000 1px solid
+}
+#day TABLE.minical {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#day .minical CAPTION {
+	FONT-WEIGHT: bold; FONT-SIZE: 47px; BACKGROUND: #f4dd65; MARGIN-LEFT: auto; COLOR: #000000; MARGIN-RIGHT: auto
+}
+#day .minical TD.selectedday {
+	BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-LEFT: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid
+}
+#day .monthnav TH {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 3px; BORDER-TOP: 0px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: 0px; TEXT-ALIGN: center
+}
+.menuhref {
+	FONT-SIZE: 12px; FONT-FAMILY: arial, verdana, sans-serif
+}
+#datesel TD.field {
+	FONT-SIZE: 12px
+}
+.glance {
+	BORDER-RIGHT: #000000 1px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 1px solid
+}
+.glance TH.empty {
+	BORDER-TOP: #f4dd65 1px solid; BACKGROUND: #f4dd65; BORDER-LEFT: #f4dd65 1px solid
+}
+.glance TH.row {
+	BORDER-TOP: #000000 1px solid; VERTICAL-ALIGN: middle; BORDER-LEFT: #000000 1px solid; WIDTH: 14%; HEIGHT: 40px
+}
+.glance TD {
+	BORDER-TOP: #000000 1px solid; PADDING-LEFT: 3px; BACKGROUND: url(includes/gradient.php?base=F4DD65&height=50) #f4dd65 repeat-x; VERTICAL-ALIGN: top; BORDER-LEFT: #000000 1px solid
+}
+#day .glance TD {
+	WIDTH: 86%; HEIGHT: 40px
+}
+#day DL.desc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#day DL.desc DT {
+	FONT-WEIGHT: bold
+}
+#day DL.desc DD {
+	PADDING-LEFT: 20px; MARGIN: 0px
+}
+#year #monthgrid TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+#year .minical TR {
+	VERTICAL-ALIGN: top
+}
+#viewm .main {
+	BORDER-COLLAPSE: collapse
+}
+#viewr .main {
+	BORDER-COLLAPSE: collapse
+}
+#viewt .main {
+	BORDER-COLLAPSE: collapse
+}
+#viewv .main {
+	BORDER-COLLAPSE: collapse
+}
+#week .main {
+	BORDER-COLLAPSE: collapse
+}
+#pref .main TH {
+	WIDTH: 14%
+}
+#viewv .main TH {
+	WIDTH: 14%
+}
+#viewl .main TH {
+	WIDTH: 14%
+}
+#month .main TH {
+	WIDTH: 14%
+}
+#vieww .main TH {
+	WIDTH: 12%
+}
+#week .main TH {
+	WIDTH: 12%
+}
+#viewr TH.small {
+	FONT-SIZE: 8px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#viewd .main TH {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+A.weekcell {
+	COLOR: #800080
+}
+#pref .main TH.weekcell {
+	BORDER-TOP: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: 0px; WIDTH: 1%
+}
+#viewl .main TH.empty {
+	BORDER-TOP: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: 0px; WIDTH: 1%
+}
+#day .main TH.empty {
+	BORDER-TOP: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: 0px; WIDTH: 1%
+}
+#month .main TH.empty {
+	BORDER-TOP: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: 0px; WIDTH: 1%
+}
+#pref .main TD.weekcell {
+	FONT-SIZE: 12px; BACKGROUND: url(includes/gradient.php?base=F4DD65&height=50) #f4dd65 repeat-x; MARGIN: 0px; VERTICAL-ALIGN: middle; WIDTH: 1%; COLOR: #000000; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#viewl .main TD.weekcell {
+	FONT-SIZE: 12px; BACKGROUND: url(includes/gradient.php?base=F4DD65&height=50) #f4dd65 repeat-x; MARGIN: 0px; VERTICAL-ALIGN: middle; WIDTH: 1%; COLOR: #000000; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#month .main TD.weekcell {
+	FONT-SIZE: 12px; BACKGROUND: url(includes/gradient.php?base=F4DD65&height=50) #f4dd65 repeat-x; MARGIN: 0px; VERTICAL-ALIGN: middle; WIDTH: 1%; COLOR: #000000; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#pref .main TD.empty {
+	BORDER-LEFT-COLOR: transparent; WIDTH: 1%; BORDER-TOP-COLOR: transparent
+}
+#pref .main TH.empty {
+	BORDER-LEFT-COLOR: transparent; WIDTH: 1%; BORDER-TOP-COLOR: transparent
+}
+#pref .main TD.weekcell {
+	WIDTH: 1%
+}
+#pref .main TH.weekcell {
+	WIDTH: 1%
+}
+#viewv .main TH.empty {
+	BORDER-TOP: #f4dd65 1px solid; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: #f4dd65 1px solid; WIDTH: 5%
+}
+#viewm .main TH.empty {
+	BORDER-TOP: #f4dd65 1px solid; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: #f4dd65 1px solid; WIDTH: 5%
+}
+#vieww .main TH.empty {
+	BORDER-TOP: #f4dd65 1px solid; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: #f4dd65 1px solid; WIDTH: 5%
+}
+#viewr .main TH.empty {
+	BORDER-TOP: #f4dd65 1px solid; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: #f4dd65 1px solid; WIDTH: 5%
+}
+#week .main TH.empty {
+	BORDER-TOP: #f4dd65 1px solid; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: #f4dd65 1px solid; WIDTH: 5%
+}
+#week .main TH.row {
+	VERTICAL-ALIGN: top; WIDTH: 5%; HEIGHT: 40px
+}
+.main#viewt {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#vieww .main TH.row {
+	VERTICAL-ALIGN: top; WIDTH: 10%
+}
+#viewv .main TH.row {
+	VERTICAL-ALIGN: top; WIDTH: 10%
+}
+#viewm .main TH.row {
+	VERTICAL-ALIGN: top; WIDTH: 10%
+}
+#viewt .main TH {
+	VERTICAL-ALIGN: top; WIDTH: 10%
+}
+#viewt .main TH.weekend {
+	BACKGROUND: url(includes/gradient.php?base=FF6633&height=15) #ff6633 repeat-x
+}
+#viewv .main TH.row {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#viewd .main TH.row {
+	TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px
+}
+#viewr TH.row {
+	VERTICAL-ALIGN: top; HEIGHT: 40px
+}
+#vieww .main TH.today {
+	WIDTH: 10%
+}
+#viewm .main TH.today {
+	WIDTH: 10%
+}
+#viewv .main TH.today {
+	WIDTH: 10%
+}
+#pref .main TH.today {
+	WIDTH: 14%
+}
+#viewr .main TH.today {
+	WIDTH: 14%
+}
+#week .main TH.today {
+	WIDTH: 14%
+}
+#viewr .main TH A {
+	COLOR: #000000
+}
+#week .main TH A {
+	COLOR: #000000
+}
+#weekdetails .main TH A {
+	COLOR: #000000
+}
+#viewr .main TH A:hover {
+	COLOR: #0000ff
+}
+#week .main TH A:hover {
+	COLOR: #0000ff
+}
+#weekdetails .main TH A:hover {
+	COLOR: #0000ff
+}
+#year .minical TD {
+	VERTICAL-ALIGN: top; TEXT-ALIGN: center
+}
+#pref .main TD {
+	FONT-SIZE: 12px; HEIGHT: 30px
+}
+#viewl .main TD {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; VERTICAL-ALIGN: top; OVERFLOW: auto; HEIGHT: 75px
+}
+#month .main TD {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; VERTICAL-ALIGN: top; OVERFLOW: auto; HEIGHT: 75px
+}
+#vieww .main TD {
+	PADDING-LEFT: 3px; FONT-SIZE: 12px
+}
+#week .main TD {
+	PADDING-LEFT: 3px; FONT-SIZE: 12px
+}
+#viewr .main TD {
+	PADDING-LEFT: 3px; FONT-SIZE: 12px
+}
+#viewm .main TD {
+	PADDING-LEFT: 3px; FONT-SIZE: 12px
+}
+#viewv .main TD {
+	PADDING-LEFT: 3px; FONT-SIZE: 12px
+}
+#month #prevmonth {
+	FLOAT: left
+}
+#viewl #prevmonth {
+	FLOAT: left
+}
+#month #nextmonth {
+	FLOAT: right
+}
+#viewl #nextmonth {
+	FLOAT: right
+}
+#month .minical CAPTION {
+	MARGIN-LEFT: 4ex
+}
+#viewl .minical CAPTION {
+	MARGIN-LEFT: 4ex
+}
+#year .minical {
+	DISPLAY: block
+}
+#year .minical CAPTION {
+	MARGIN: 0px auto
+}
+#viewl .minical {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px 4px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#month .minical {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px 4px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.topnav {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.title {
+	WIDTH: 99%; TEXT-ALIGN: center
+}
+#day .title {
+	MARGIN-TOP: 3px; TEXT-ALIGN: center
+}
+#day .title .date {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #000000; TEXT-ALIGN: center
+}
+.title .date {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #000000; TEXT-ALIGN: center
+}
+.title .titleweek {
+	FONT-SIZE: 20px; COLOR: #000000
+}
+.title .viewname {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #000000; TEXT-ALIGN: center
+}
+#day .title .user {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #000000; TEXT-ALIGN: center
+}
+.title .user {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #000000; TEXT-ALIGN: center
+}
+#weekdetails .main {
+	WIDTH: 90%
+}
+#weekdetails .main TH {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 100%; PADDING-TOP: 2px
+}
+#weekdetails .main TD {
+	HEIGHT: 75px
+}
+#viewt TABLE.timebar {
+	WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+#viewt TD.timebar {
+	FONT-SIZE: 10px; BACKGROUND: #ffffff; WIDTH: 90%; COLOR: #909090; TEXT-ALIGN: center
+}
+#viewt .yardstick TD {
+	BORDER-RIGHT: #909090 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #909090 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #909090 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #909090 1px solid
+}
+#viewt TD.entry {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(includes/gradient.php?base=F4DD65&height=10) #f4dd65 repeat-x; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#viewt TABLE.timebar A {
+	
+}
+#viewt TABLE.timebar TD {
+	WIDTH: 1%
+}
+.viewnav {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 99%; BORDER-BOTTOM: 0px
+}
+#login {
+	MARGIN-TOP: 30px; MARGIN-BOTTOM: 50px
+}
+#register TABLE {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 12px; BACKGROUND: url(includes/gradient.php?base=F4DD65&height=200) #f4dd65 repeat-x; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+#login TABLE {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 12px; BACKGROUND: url(includes/gradient.php?base=F4DD65&height=200) #f4dd65 repeat-x; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.cookies {
+	FONT-SIZE: 13px
+}
+.strikethrough {
+	TEXT-DECORATION: line-through
+}
+.pub {
+	BACKGROUND: #80ff80; TEXT-ALIGN: center
+}
+.conf {
+	BACKGROUND: #ffff80; TEXT-ALIGN: center
+}
+.priv {
+	BACKGROUND: #ff5050; TEXT-ALIGN: center
+}
+.boxtop {
+	BORDER-TOP: #808080 1px solid
+}
+.boxright {
+	BORDER-RIGHT: #808080 1px solid
+}
+.boxbottom {
+	BORDER-BOTTOM: #808080 1px solid
+}
+.boxleft {
+	BORDER-LEFT: #808080 1px solid
+}
+.boxall {
+	BORDER-RIGHT: #808080 1px solid; BORDER-TOP: #808080 1px solid; PADDING-LEFT: 3px; BORDER-LEFT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid
+}
+.leftpadded {
+	PADDING-LEFT: 50px; TEXT-ALIGN: left
+}
+.location {
+	FONT-SIZE: 10px
+}
+.byxxx TH {
+	TEXT-ALIGN: center
+}
+.byxxx TD {
+	TEXT-ALIGN: center
+}
+.icon_text {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 10px; BORDER-BOTTOM: 0px; HEIGHT: 10px
+}
+.minitask TD.pct {
+	TEXT-ALIGN: right
+}
+.alignright {
+	TEXT-ALIGN: right
+}
+.minitask TD.name {
+	TEXT-ALIGN: left
+}
+.alignleft {
+	TEXT-ALIGN: left
+}
+.aligncenter {
+	TEXT-ALIGN: center
+}
+.aligntop {
+	VERTICAL-ALIGN: top
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+#about {
+	BACKGROUND-IMAGE: url(images/kn5.jpg); BACKGROUND-REPEAT: no-repeat
+}
+#about P {
+	MARGIN: 1px; COLOR: #303030
+}
+#scroller {
+	WIDTH: 100%; POSITION: absolute
+}
+.alt {
+	BACKGROUND: #f4dd65
+}
+.layers {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #f4dd65; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 2px 1px; PADDING-TOP: 5px
+}
+.layers H4 {
+	MARGIN: 0px 0px 5px
+}
+.layers P {
+	PADDING-LEFT: 5px; FONT-SIZE: 12px; MARGIN: 0px
+}
+.layers P LABEL {
+	FONT-SIZE: 13px
+}
+#securityAudit {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+#securityAudit TH {
+	BACKGROUND-COLOR: #d0d0d0
+}
+#securityAudit .odd {
+	BACKGROUND-COLOR: #e0e0e0
+}
+#securityAudit .even {
+	BACKGROUND-COLOR: #ffffff
+}
+#securityAuditNotes {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BACKGROUND: url(includes/gradient.php?base=F4DD65&height=150) #f4dd65 repeat-x; MARGIN: 20px; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+#securityAuditNotes LI {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 4px
+}
+#accountiframe {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 90%; BORDER-BOTTOM: 0px
+}
+#useriframe {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 90%; BORDER-BOTTOM: 0px
+}
+#accountiframe {
+	HEIGHT: 210px
+}
+#useriframe {
+	HEIGHT: 280px
+}
+#eventcomment {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 0.25em; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 0.25em; BACKGROUND: #f4dd65; PADDING-BOTTOM: 0.25em; BORDER-LEFT: #000000 1px solid; PADDING-TOP: 0.25em; BORDER-BOTTOM: #000000 1px solid
+}

@@ -1,0 +1,258 @@
+@font-face {
+    font-family: oxygen;
+    src: url(../fonts/Oxygen-Regular.ttf);
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: Oxygen;
+  font-weight: 300;
+  font-size: 1em;
+  color: #fff;
+}
+body {
+	background: #059e11;
+	background: -moz-linear-gradient(45deg, #059e11 0%, #269740 100%);
+	background: -webkit-linear-gradient(45deg, #059e11 0%, #269740 100%);
+	background: -o-linear-gradient(45deg, #059e11 0%, #269740 100%);
+	background: linear-gradient(45deg, #059e11 0%, #269740 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#059e11', endColorstr='#269740',GradientType=1 );
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+a{
+  text-decoration:none !important
+  }
+.clr{
+  clear:both;
+  } 
+.pl0{
+  padding-left:0px;
+  }
+.pr0{
+  padding-right:0px;
+  }   
+.signin {
+  top:10px;
+  display: block;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.40);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 1px 1px 0 0 rgba(255,255,255,0.2), inset -1px -1px 0 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 1px 1px 0 0 rgba(255,255,255,0.2), inset -1px -1px 0 0 rgba(0,0,0,0.2);
+  box-shadow: inset 1px 1px 0 0 rgba(255,255,255,0.2), inset -1px -1px 0 0 rgba(0,0,0,0.2);
+}
+.signin .avatar {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 35px auto;
+  border: 5px solid #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-pointer-events: none;
+  -moz-pointer-events: none;
+  pointer-events: none;
+}
+.signin .avatar:before {
+  content: "\f212";
+  text-align: center;
+  font-family: Ionicons;
+  display: block;
+  height: 100%;
+  line-height: 100px;
+  font-size: 5em;
+}
+.signin .inputrow {
+  position: relative;
+}
+.signin .inputrow label {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+.signin .inputrow label:before {
+  color: #538a9a;
+  opacity: 0.4;
+  -webkit-transition: opacity 300ms 0 ease;
+  -moz-transition: opacity 300ms 0 ease;
+  transition: opacity 300ms 0 ease;
+}
+.signin input[type="text"],.signin select,
+.signin input[type="password"] {
+  padding: 10px 12px 10px 32px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255,255,255,0.5);
+  background-color: #fff;
+  color: #333;
+  font-size: 1em;
+  font-weight: 300;
+  outline: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition: border-color 300ms 0 ease;
+  -moz-transition: border-color 300ms 0 ease;
+  transition: border-color 300ms 0 ease;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.signin input[type="text"]:focus + label:before,
+.signin input[type="password"]:focus + label:before {
+  opacity: 1;
+}
+.signin input[type="submit"] {
+  -webkit-appearance: none;
+  height: 40px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  background-color: #538a9a;
+  text-transform: uppercase;
+  color: #fff;
+  border: 0px;
+  float: right;
+  margin: 0;
+  outline: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.signin input[type="submit"]:hover {
+  background-color: #5e98a8;
+}
+.signin input[type="submit"]:active {
+  background-color: #4a7b89;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + label {
+  position: relative;
+  padding-left: 36px;
+  font-size: 0.6em;
+  font-weight: normal;
+  line-height: 16px;
+  opacity: 0.8;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+input[type="checkbox"] + label:before,
+input[type="checkbox"] + label:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 16px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+input[type="checkbox"] + label:before {
+  left: 0;
+  top: -2px;
+  width: 30px;
+  background: rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.3);
+  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.3);
+}
+input[type="checkbox"] + label:after {
+  opacity: 0.3;
+  background: #fff;
+  top: 0px;
+  left: 2px;
+  height: 12px;
+  width: 12px;
+  -webkit-transition: all 200ms 0 ease;
+  -moz-transition: all 200ms 0 ease;
+  transition: all 200ms 0 ease;
+}
+input[type="checkbox"]:checked + label {
+  opacity: 1;
+}
+input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  left: 16px;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
+.forgot{
+  padding-top:10px;
+  text-align:right;
+  }
+.forgot a{
+  color:rgba(255,255,255,1.00);
+  margin-top:10px;
+  font-size:14px;
+  }
+.button1{
+    width: 100%;
+    cursor: pointer;
+    background: rgb(61, 157, 179);
+    padding: 3px 5px;
+    font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid rgb(28, 108, 122);
+    margin-bottom: 10px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+ 0px 0px 0px 3px rgb(254, 254, 254),
+ 0px 5px 3px 3px rgb(210, 210, 210);
+    -moz-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+ 0px 0px 0px 3px rgb(254, 254, 254),
+ 0px 5px 3px 3px rgb(210, 210, 210);
+    box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+ 0px 0px 0px 3px rgb(254, 254, 254),
+ 0px 5px 3px 3px rgb(210, 210, 210);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.button1:hover{
+  background: rgb(74, 179, 198);
+  color:#fff;
+}
+.button1:active,
+.button1:focus{
+  background: rgb(40, 137, 154);
+  position: relative;
+  top: 1px;
+  color:#fff;
+  border: 1px solid rgb(12, 76, 87);  
+  -webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+     -moz-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+          box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+}
+.button1{
+  text-align: center;
+  margin: 18px 0;
+}

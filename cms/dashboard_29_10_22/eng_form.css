@@ -1,0 +1,209 @@
+
+.body_e
+{
+	background: #F6FAFD;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	VERTICAL-ALIGN: middle;
+	COLOR: #2B3934;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 10px;
+	font-weight: normal;
+}
+.td_e
+{
+        BACKGROUND: #f4f4f4;
+		COLOR: #2B3934;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		FONT-SIZE: 12px;
+		font-weight: normal;
+		padding-right:2px;
+		padding-left:2px;
+}
+.odd_td_e
+{
+        BACKGROUND: #f4f4f4;
+        BORDER-TOP: #ebebeb 1px solid;
+        BORDER-LEFT: #ebebeb 1px solid;
+        BORDER-RIGHT: #ebebeb 1px solid;
+        BORDER-BOTTOM: #ebebeb 1px solid;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+		FONT-SIZE: 12px;
+        font-weight:normal;
+		padding-right:2px;
+		padding-left:2px;
+
+}
+.even_td_e
+{
+        BACKGROUND: #ffffff;
+        BORDER-TOP: #ebebeb 1px solid;
+        BORDER-LEFT: #ebebeb 1px solid;
+        BORDER-RIGHT: #ebebeb 1px solid;
+        BORDER-BOTTOM: #ebebeb 1px solid;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+		FONT-SIZE: 12px;
+        font-weight:normal;
+		padding-right:2px;
+		padding-left:2px;
+}
+
+/*---------------------------------------- Caption FOR Input Type -----------------------------*/ 
+.caption_e
+{
+	BACKGROUND: #f4f4f4;
+	padding-right:2px;
+	padding-left:2px;
+	vertical-align:middle;
+	COLOR: #2B3934;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	font-weight:bold;
+	text-align:right;
+}
+/*---------------------------------------- END ------------------------------------------------*/
+/*---------------------------------------- All Control ----------------------------------------*/
+.input_e
+{
+	VERTICAL-ALIGN: middle;
+	background:#ffffff;
+	border: 1px solid #486057;
+	COLOR: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	font-weight: Normal;
+}
+.select_e
+{
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   FONT-SIZE: 12px;
+}
+/*--------------------------------------- END --------------------------------------------------*/
+/*--------------------------------------- For Button Style -------------------------------------*/
+.forms_button_e 
+{
+	border:2px;
+	border-style: solid;
+	border-color:#FFFFFF;
+	width:70px;
+	height:20px;
+	vertical-align: middle;
+	text-align:center;
+	background-color:#000066;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:12px;
+	font-weight: bold;
+	
+}
+
+/*--------------------------------------- END ------------------------------------------------*/
+
+/*---------------------------------- Spacial Cell -------------------------------------------*/
+.title_cell_e
+{
+	height: 22px;
+	background-color:#336699;
+	padding-left:2px;
+	text-align:center;
+	VERTICAL-ALIGN: middle;
+	COLOR: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	font-weight:bold;
+}
+.button_cell_e
+{
+	height:25px;
+	BACKGROUND: #CFD7D8;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+/*--------------------------------- END -------------------------------------------------------*/
+.status_title_cell_e
+{
+	BACKGROUND: #3A4839;
+	color: #FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.title_cell_e2
+{
+	height: 22px;
+	background-color:#D2E1F0;
+	padding-left:2px;
+	text-align:center;
+	VERTICAL-ALIGN: middle;
+	COLOR: #000066;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	font-weight:bold;
+}
+
+
+
+/*---------------------------------------- Form Design ------------------------------------------*/ 
+
+.header_cell_e
+{
+	height:28px;
+	background:url('../img/ch.gif') repeat-x;
+	padding-left:10px;
+	VERTICAL-ALIGN: middle;
+	COLOR: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	font-weight:bold;		
+}
+
+
+/*---------------------------------------------- END ---------------------------------------------*/
+/*---------------------------------------------- Fonts -------------------------------------------*/
+.body_font_e
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	FONT-SIZE: 12px;
+}
+.td_font_e
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	FONT-SIZE: 12px;
+}
+.odd_td_font_e
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	FONT-SIZE: 12px;
+}
+.even_td_font_e
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	FONT-SIZE: 12px;
+}
+.caption_font_e
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+}
+.title_cell_font_e
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+}
+.button_cell_font_e
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+}
+.status_title_cell_font_e
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+}
+.header_cell_font_e
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+}
+/*---------------------------------------------- END ---------------------------------------------*/

@@ -1,0 +1,62 @@
+body,TD
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 10px;
+}
+.Odd_TD
+{
+	BACKGROUND: #f4f4f4;
+	BORDER-TOP: #ebebeb 1px solid;
+	BORDER-LEFT: #ebebeb 1px solid;
+	BORDER-RIGHT: #ebebeb 1px solid;
+	BORDER-BOTTOM: #ebebeb 1px solid;
+	FONT-SIZE: 10px;
+	font-weight:normal;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.Even_TD
+{
+	BACKGROUND: #ffffff;
+	BORDER-TOP: #ebebeb 1px solid;
+	BORDER-LEFT: #ebebeb 1px solid;
+	BORDER-RIGHT: #ebebeb 1px solid;
+	BORDER-BOTTOM: #ebebeb 1px solid;
+	FONT-SIZE: 10px;
+	font-weight:normal;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.Top_TD
+{
+	BACKGROUND: #C0C0C0;
+	BORDER-TOP: #C0C0C0 2px solid;
+	BORDER-LEFT: #C0C0C0 2px solid;
+	BORDER-RIGHT: #C0C0C0 2px solid;
+	BORDER-BOTTOM: #C0C0C0 2px solid;
+	FONT-SIZE: 12px;
+	font-weight:bold;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+input
+{
+	FONT-SIZE: 12px;
+	VERTICAL-ALIGN: middle;
+	COLOR: #333333;
+	background:#ffffff;
+	border: 1px solid #000000;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.3D_Table
+{
+	border-collapse: collapse;
+	border-width: 3;
+	border-style:outset;
+	border-color:f4f4f4;
+}
+.Header_Cell
+{
+	filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#A4BAD5', startColorstr='#EEF1F7', gradientType='0');
+}
+.Special_Header_Cell
+{
+	filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#66FF33', startColorstr='#EEFFE8', gradientType='0');
+}

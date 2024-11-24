@@ -1,0 +1,20 @@
+[10-Dec-2020 06:42:42 America/Chicago] PHP Warning:  require_once(../Library/dbconnect.php): failed to open stream: No such file or directory in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 2
+[10-Dec-2020 06:42:42 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../Library/dbconnect.php' (include_path='.:/opt/php56/lib/php') in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 2
+[10-Dec-2020 06:43:15 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 06:44:58 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 06:45:01 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 06:45:04 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 06:45:06 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 06:46:41 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:18:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:18:37 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:18:39 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:19:03 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:21:13 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:21:16 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:21:59 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:22:02 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:22:09 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:22:12 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:22:14 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20
+[10-Dec-2020 07:22:15 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nextcloud/public_html/admin2/AjaxCode/loadajaxcombo.php on line 20

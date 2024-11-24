@@ -1,0 +1,14 @@
+.body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10pt;
+color: #000000;
+background-color: #FFFFFF;
+}
+
+//img {
+//display: none
+//}
+
+.hide input {
+display: none;
+}

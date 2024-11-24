@@ -1,0 +1,168 @@
+
+.body_g
+{
+	background: #F6FAFD;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	font-weight:normal;
+	VERTICAL-ALIGN: middle;
+	COLOR: #2B3934;
+}
+.td_g
+{
+        BACKGROUND: #f4f4f4;
+		COLOR: #2B3934;
+		font-weight: normal;
+		padding-right:2px;
+		padding-left:2px;
+}
+.odd_td_g
+{
+        BACKGROUND: #f4f4f4;
+        BORDER-TOP: #ebebeb 1px solid;
+        BORDER-LEFT: #ebebeb 1px solid;
+        BORDER-RIGHT: #ebebeb 1px solid;
+        BORDER-BOTTOM: #ebebeb 1px solid;
+        font-weight:normal;
+		padding-right:2px;
+		padding-left:2px;
+
+}
+.even_td_g
+{
+        BACKGROUND: #ffffff;
+        BORDER-TOP: #ebebeb 1px solid;
+        BORDER-LEFT: #ebebeb 1px solid;
+        BORDER-RIGHT: #ebebeb 1px solid;
+        BORDER-BOTTOM: #ebebeb 1px solid;
+        font-weight:normal;
+		padding-right:2px;
+		padding-left:2px;
+}
+/*---------------------------------------- Hiper Link -----------------------------------------*/
+
+a:link
+{
+ COLOR: #0000A4;
+ TEXT-DECORATION: underline
+}
+a:visited
+{
+	COLOR: #ff0000; 
+	TEXT-DECORATION: underline;
+}
+a:active
+{
+	COLOR: #0000A4;
+	TEXT-DECORATION: none
+}
+a:hover
+{
+	COLOR: #00551C;
+	TEXT-DECORATION: underline
+}
+/*---------------------------------------- END ------------------------------------------------*/
+
+/*---------------------------------------- Caption FOR Input Type -----------------------------*/ 
+.caption_g
+{
+	BACKGROUND: #f4f4f4;
+	padding-right:2px;
+	padding-left:2px;
+	vertical-align:middle;
+	COLOR: #2B3934;
+	text-align:right;
+	font-weight:bold;
+}
+/*---------------------------------------- END ------------------------------------------------*/
+
+/*---------------------------------- Spacial Cell -------------------------------------------*/
+.title_cell_g
+{
+	height: 22px;
+	background-color:#336699;
+	padding-left:2px;
+	VERTICAL-ALIGN: middle;
+	COLOR: #FFFFFF;
+	font-weight:bold;
+}
+.button_cell_g
+{
+	height:25px;
+	BACKGROUND: #CFD7D8;
+}
+/*--------------------------------- END -------------------------------------------------------*/
+.status_title_cell_g
+{
+	BACKGROUND: #3A4839;
+	color: #FFFFFF;
+}
+
+/*---------------------------------------- Form Design ------------------------------------------*/ 
+.top_left_curb
+{
+	height:28px;
+	width:6px;
+	background:url('../img/cl.gif') no-repeat;
+}
+.header_cell_g
+{
+	height:28px;
+	background:url('../img/ch.gif') repeat-x;
+	padding-left:10px;
+	font-weight:bold;
+	VERTICAL-ALIGN: middle;
+	COLOR: #000000;
+
+}
+.top_right_curb
+{
+	height:28px;
+	width:6px;
+	background:url('../img/cr.gif') no-repeat;
+}
+.lb
+{
+	width:6px;
+	background:url('../img/TBordBR.gif') repeat-y;
+}
+.rb
+{
+	width:6px;
+	background:url('../img/TBordBL.gif') repeat-y;
+}
+.top_l_curb
+{
+	height:6px;
+	width:6px;
+	background:url('../img/TopCurbL.gif') no-repeat;
+}
+.top_r_curb
+{
+	height:6px;
+	width:6px;
+	background:url('../img/TopCurbR.gif') no-repeat;
+}
+.top_f_cell
+{
+	background:url('../img/TopBorder.gif') repeat-x;	
+}
+.bottom_l_curb
+{
+	height:6px;
+	width:6px;
+	background:url('../img/BottomCurbL.gif') no-repeat;
+}
+.bottom_r_curb
+{
+	width:6px;
+	height:6px;
+	background:url('../img/BottomCurbR.gif') no-repeat;
+}
+.bottom_f_cell
+{
+	background:url('../img/BottomBorder.gif') repeat-x;
+}
+/*---------------------------------------------- END ---------------------------------------------*/

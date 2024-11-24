@@ -1,0 +1,39 @@
+table.calendar
+{
+	border:1px solid;
+}
+
+.navigateYear
+{
+	background-color:green;
+	color:white;
+}
+
+td.month
+{
+	background-color:gray;
+	text-align:center;
+}
+
+tr.daysOfTheWeek
+{
+	background-color:silver;
+}
+
+.normalDate
+{
+	background-color:white;
+	color:black;
+}
+
+.currentDate
+{
+	background-color:#999999;
+	color:white;
+}
+
+.selectedDate
+{
+	background-color:blue;	
+	color:white;
+}

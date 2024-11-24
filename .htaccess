@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    #RewriteRule ^.*$ htaccess_tester.php
+	RewriteRule ^auth/token nagorik_kornar_mobile/tocken.php [NC,L]
+    RewriteRule ^auth/application nagorik_kornar_mobile/pages/complain/complain.php [NC,L]
+    RewriteRule ^auth/complaindetails nagorik_kornar_mobile/pages/info/info.php [NC,L]
+</IfModule>
+
+
+

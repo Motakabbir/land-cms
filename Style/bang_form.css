@@ -1,0 +1,209 @@
+@font-face
+{
+	font-family: AponaLohit;
+    font-style:  normal;
+    font-weight: normal;
+    src: url(../Font/SOLAIMA0.eot);
+}
+.body_b
+{
+	background: #F6FAFD;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	VERTICAL-ALIGN: middle;
+	COLOR: #2B3934;
+	font-family: SolaimanLipi;
+	FONT-SIZE: 12px;
+	font-weight: normal; 
+}
+.td_b
+{
+        BACKGROUND: #f4f4f4;
+		COLOR: #2B3934;
+		font-family: SolaimanLipi;
+		FONT-SIZE: 10px;
+		font-weight: normal;
+		padding-right:2px;
+		padding-left:2px;
+}
+.odd_td_b
+{
+        BACKGROUND: #f4f4f4;
+        BORDER-TOP: #ebebeb 1px solid;
+        BORDER-LEFT: #ebebeb 1px solid;
+        BORDER-RIGHT: #ebebeb 1px solid;
+        BORDER-BOTTOM: #ebebeb 1px solid;
+        font-family: SolaimanLipi;
+		FONT-SIZE: 10px;
+        font-weight:normal;
+		padding-right:2px;
+		padding-left:2px;
+
+}
+.even_td_b
+{
+        BACKGROUND: #ffffff;
+        BORDER-TOP: #ebebeb 1px solid;
+        BORDER-LEFT: #ebebeb 1px solid;
+        BORDER-RIGHT: #ebebeb 1px solid;
+        BORDER-BOTTOM: #ebebeb 1px solid;
+        font-family: SolaimanLipi;
+		FONT-SIZE: 10px;
+        font-weight:normal;
+		padding-right:2px;
+		padding-left:2px;
+}
+
+/*---------------------------------------- Caption FOR Input Type -----------------------------*/ 
+.caption_b
+{
+	BACKGROUND: #f4f4f4;
+	padding-right:2px;
+	padding-left:2px;
+	vertical-align:middle;
+	COLOR: #2B3934;
+	font-family:SolaimanLipi;
+	FONT-SIZE: 10px;
+	font-weight:bold;
+	text-align:right;
+}
+/*---------------------------------------- END ------------------------------------------------*/
+/*---------------------------------------- All Control ----------------------------------------*/
+.input_b
+{
+	VERTICAL-ALIGN: middle;
+	background:#ffffff;
+	border: 1px solid #486057;
+	COLOR: #000000;
+	font-family: SolaimanLipi;
+	FONT-SIZE: 12px;
+	font-weight: Normal;		
+}
+.select_b
+{
+   font-family: SolaimanLipi;
+   FONT-SIZE: 9px;
+}
+/*--------------------------------------- END --------------------------------------------------*/
+/*--------------------------------------- For Button Style -------------------------------------*/
+.forms_button_b 
+{
+	border:2px;
+	border-style: solid;
+	border-color:#FFFFFF;
+	width:70px;
+	height:20px;
+	vertical-align: middle;
+	text-align:center;
+	background-color:#000066;
+	color:#FFFFFF;
+	font-family:SolaimanLipi;
+	font-size:11px;
+	font-weight: bold;
+}
+
+/*--------------------------------------- END ------------------------------------------------*/
+
+/*---------------------------------- Spacial Cell -------------------------------------------*/
+.title_cell_b
+{
+	height: 22px;
+	background-color:#336699;
+	padding-left:2px;
+	VERTICAL-ALIGN: middle;
+	COLOR: #FFFFFF;
+	font-family: SolaimanLipi;
+	FONT-SIZE: 10px;
+	font-weight:bold;
+}
+.button_cell_b
+{
+	height:25px;
+	BACKGROUND: #CFD7D8;
+	font-family: SolaimanLipi;
+	font-size:12px;
+}
+/*--------------------------------- END -------------------------------------------------------*/
+.status_title_cell_b
+{
+	BACKGROUND: #3A4839;
+	color: #FFFFFF;
+	font-family:SolaimanLipi;
+	font-size:10px;
+}
+/*---------------------------------------- Form Design ------------------------------------------*/ 
+
+.header_cell_b
+{
+	height:28px;
+	background:url('../img/ch.gif') repeat-x;
+	padding-left:10px;
+	VERTICAL-ALIGN: middle;
+	COLOR: #000000;
+	font-family: SolaimanLipi;
+	FONT-SIZE: 12px;
+	font-weight:bold;		
+}
+
+
+/*---------------------------------------------- END ---------------------------------------------*/
+/*---------------------------------------------- Fonts -------------------------------------------*/
+.body_font_b
+{
+	font-family: SolaimanLipi;
+	FONT-SIZE: 10px;
+}
+.td_font_b
+{
+	font-family: SolaimanLipi;
+	FONT-SIZE: 12px;
+}
+.odd_td_font_b
+{
+	font-family: SolaimanLipi;
+	FONT-SIZE: 12px;
+}
+.even_td_font_b
+{
+	font-family: SolaimanLipi;
+	FONT-SIZE: 12px;
+}
+.caption_font_b
+{
+	font-family: SolaimanLipi;
+	FONT-SIZE: 12px;
+}
+.title_cell_font_b
+{
+	font-family: SolaimanLipi;
+	FONT-SIZE: 10px;
+}
+.button_cell_font_b
+{
+	font-family: SolaimanLipi;
+	FONT-SIZE: 14px;
+}
+.status_title_cell_font_b
+{
+	font-family: SolaimanLipi;
+	FONT-SIZE: 10px;
+}
+.header_cell_font_b
+{
+	font-family: SolaimanLipi;
+	FONT-SIZE: 14px;
+}
+
+/*---------------------------------------------- END ---------------------------------------------*/
+.Boutput
+{
+        BACKGROUND: #f4f4f4;
+		COLOR: #2B3934;
+		font-family: SolaimanLipi;
+		FONT-SIZE: 14px;
+		font-weight: normal;
+		padding-right:2px;
+		padding-left:2px;
+}

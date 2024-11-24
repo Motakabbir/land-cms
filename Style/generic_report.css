@@ -1,0 +1,183 @@
+
+.body_g
+{
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	font-weight:normal;
+	VERTICAL-ALIGN: middle;
+	COLOR: #2B3934;
+}
+.table_g
+{
+	border: 1px solid #000000;
+}
+.td_g
+{
+        BACKGROUND: #f4f4f4;
+		COLOR: #2B3934;
+		font-weight: normal;
+		padding-right:2px;
+		padding-left:2px;
+}
+.odd_td_g
+{
+        
+	BACKGROUND: #f4f4f4;
+	BORDER-TOP: #000000 0px solid;
+	BORDER-LEFT: #000000 0px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	font-weight:normal;
+	padding-left:2px;
+	padding-right:2px;
+
+}
+.even_td_g
+{
+	BACKGROUND: #ffffff;
+	BORDER-TOP: #000000 0px solid;
+	BORDER-LEFT: #000000 0px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	font-weight:normal;
+	padding-left:2px;
+	padding-right:2px;
+}
+.odd_left_td_g
+{
+	BACKGROUND: #f4f4f4;
+	BORDER-TOP: #000000 0px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	font-weight:normal;
+	padding-left:2px;
+	padding-right:2px;
+}
+.even_left_td_g
+{
+	BACKGROUND: #ffffff;
+	BORDER-TOP: #000000 0px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	font-weight:normal;
+	padding-left:2px;
+	padding-right:2px;
+}
+/*---------------------------------------- Hiper Link -----------------------------------------*/
+
+a:link
+{
+ COLOR: #0000A4;
+ TEXT-DECORATION: underline
+}
+a:visited
+{
+	COLOR: #7500C4; 
+	TEXT-DECORATION: underline;
+}
+a:active
+{
+	COLOR: #0000A4;
+	TEXT-DECORATION: none
+}
+a:hover
+{
+	COLOR: #ff0000;
+	TEXT-DECORATION: underline
+}
+/*---------------------------------------- END ------------------------------------------------*/
+.lb
+{
+	width:6px;
+	background:url('../img/TBordBR.gif') repeat-y;
+}
+.rb
+{
+	width:6px;
+	background:url('../img/TBordBL.gif') repeat-y;
+}
+.top_l_curb
+{
+	height:6px;
+	width:6px;
+	background:url('../img/TopCurbL.gif') no-repeat;
+}
+.top_r_curb
+{
+	height:6px;
+	width:6px;
+	background:url('../img/TopCurbR.gif') no-repeat;
+}
+.top_f_cell
+{
+	background:url('../img/TopBorder.gif') repeat-x;	
+}
+.bottom_l_curb
+{
+	height:6px;
+	width:6px;
+	background:url('../img/BottomCurbL.gif') no-repeat;
+}
+.bottom_r_curb
+{
+	width:6px;
+	height:6px;
+	background:url('../img/BottomCurbR.gif') no-repeat;
+}
+.bottom_f_cell
+{
+	background:url('../img/BottomBorder.gif') repeat-x;
+}
+/*---------------------------------------- Caption FOR Input Type -----------------------------*/ 
+.caption_g
+{
+	BACKGROUND: #f4f4f4;
+	padding-right:2px;
+	padding-left:2px;
+	vertical-align:middle;
+	COLOR: #2B3934;
+	text-align:right;
+	font-weight:bold;
+}
+/*---------------------------------------- END ------------------------------------------------*/
+
+/*---------------------------------- Spacial Cell -------------------------------------------*/
+.title_cell_g
+{
+	BACKGROUND: #C0C0C0;
+	BORDER-TOP: #000000 2px solid;
+	BORDER-LEFT: #000000 2px solid;
+	BORDER-RIGHT: #000000 2px solid;
+	BORDER-BOTTOM: #000000 2px solid;
+	FONT-SIZE: 12px;
+	font-weight:bold;
+	padding-left:2px;
+	padding-right:2px;
+	text-align:center;
+	VERTICAL-ALIGN: middle;
+}
+
+/*--------------------------------- END -------------------------------------------------------*/
+/*---------------------------------------- Form Design ------------------------------------------*/ 
+.header_cell_g
+{
+	height:28px;
+	background-color:#C0C0C0;
+	BORDER-TOP: #000000 2px solid;
+	BORDER-LEFT: #000000 2px solid;
+	BORDER-RIGHT: #000000 2px solid;
+	BORDER-BOTTOM: #000000 2px solid;
+	padding-left:10px;
+	padding-right:10px;
+	COLOR: #000000;	
+	font-weight:bold;
+	VERTICAL-ALIGN: middle;
+}
+
+
+/*---------------------------------------------- END ---------------------------------------------*/

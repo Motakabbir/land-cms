@@ -1,0 +1,172 @@
+@font-face
+{
+	font-family: AponaLohit;
+    font-style:  normal;
+    font-weight: normal;
+    src: url(../Font/APONALO0.eot);
+}
+.body_b
+{
+	background: #F6FAFD;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	VERTICAL-ALIGN: middle;
+	COLOR: #2B3934;
+	font-family: AponaLohit;
+	FONT-SIZE: 12px;
+	font-weight: normal; 
+}
+.td_b
+{
+        BACKGROUND: #f4f4f4;
+		COLOR: #2B3934;
+		font-family: AponaLohit;
+		FONT-SIZE: 10px;
+		font-weight: normal;
+		padding-right:2px;
+		padding-left:2px;
+}
+.odd_td_b
+{
+	BACKGROUND: #f4f4f4;
+	BORDER-TOP: #000000 0px solid;
+	BORDER-LEFT: #000000 0px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	FONT-FAMILY: AponaLohit;
+	FONT-SIZE: 10px;
+	font-weight:normal;
+	padding-left:2px;
+	padding-right:2px;       
+}
+.even_td_b
+{
+	BACKGROUND: #ffffff;
+	BORDER-TOP: #000000 0px solid;
+	BORDER-LEFT: #000000 0px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	FONT-FAMILY: AponaLohit;
+	FONT-SIZE: 10px;
+	font-weight:normal;
+	padding-left:2px;
+	padding-right:2px;
+}
+.odd_left_td_b
+{
+	BACKGROUND: #f4f4f4;
+	BORDER-TOP: #000000 0px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	FONT-FAMILY: AponaLohit;	
+	FONT-SIZE: 10px;
+	font-weight:normal;
+	padding-left:2px;
+	padding-right:2px;	
+}
+.even_left_td_b
+{
+	BACKGROUND: #ffffff;
+	BORDER-TOP: #000000 0px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	FONT-FAMILY: AponaLohit;
+	FONT-SIZE: 10px;
+	font-weight:normal;
+	padding-left:2px;
+	padding-right:2px;	
+}
+
+/*---------------------------------------- Caption FOR Input Type -----------------------------*/ 
+.caption_b
+{
+	BACKGROUND: #f4f4f4;
+	padding-right:2px;
+	padding-left:2px;
+	vertical-align:middle;
+	COLOR: #2B3934;
+	font-family:AponaLohit;
+	FONT-SIZE: 10px;
+	font-weight:bold;
+	text-align:right;
+}
+/*---------------------------------------- END ------------------------------------------------*/
+/*---------------------------------- Spacial Cell -------------------------------------------*/
+.title_cell_b
+{
+	BACKGROUND: #C0C0C0;
+	BORDER-TOP: #000000 2px solid;
+	BORDER-LEFT: #000000 2px solid;
+	BORDER-RIGHT: #000000 2px solid;
+	BORDER-BOTTOM: #000000 2px solid;
+	FONT-SIZE: 12px;
+	font-weight:bold;
+	FONT-FAMILY: AponaLohit;
+	padding-left:2px;
+	padding-right:2px;
+	text-align:center;
+	VERTICAL-ALIGN: middle;	
+}
+/*--------------------------------- END -------------------------------------------------------*/
+/*---------------------------------------- Form Design ------------------------------------------*/ 
+
+.header_cell_b
+{
+	height:28px;
+	background-color:#C0C0C0;
+	BORDER-TOP: #000000 2px solid;
+	BORDER-LEFT: #000000 2px solid;
+	BORDER-RIGHT: #000000 2px solid;
+	BORDER-BOTTOM: #000000 2px solid;
+	COLOR: #000000;
+	font-family: AponaLohit;
+	FONT-SIZE: 12px;
+	font-weight:bold;		
+	padding-left:10px;
+	padding-right: 10px;
+	VERTICAL-ALIGN: middle;			
+}
+
+
+/*---------------------------------------------- END ---------------------------------------------*/
+/*---------------------------------------------- Fonts -------------------------------------------*/
+.body_font_b
+{
+	font-family: AponaLohit;
+	FONT-SIZE: 10px;
+}
+.td_font_b
+{
+	font-family: AponaLohit;
+	FONT-SIZE: 12px;
+}
+.odd_td_font_b
+{
+	font-family: AponaLohit;
+	FONT-SIZE: 12px;
+}
+.even_td_font_b
+{
+	font-family: AponaLohit;
+	FONT-SIZE: 12px;
+}
+.caption_font_b
+{
+	font-family: AponaLohit;
+	FONT-SIZE: 12px;
+}
+.title_cell_font_b
+{
+	font-family: AponaLohit;
+	FONT-SIZE: 10px;
+}
+.header_cell_font_e
+{
+	font-family: AponaLohit;
+	FONT-SIZE: 12px;
+}
+/*---------------------------------------------- END ---------------------------------------------*/

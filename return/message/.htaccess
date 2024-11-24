@@ -1,0 +1,7 @@
+RewriteEngine On    # Turn on the rewriting engine
+#RewriteRule ^read/([0-9a-zA-Z_-]*)$ read.php?id=$1 [NC,L]
+RewriteRule ^read/([0-9a-zA-Z_-]*)$ billQuery.php [NC,L]
+RewriteRule ^update billPayment.php [NC,L]
+
+
+	
